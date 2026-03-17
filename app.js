@@ -40,6 +40,7 @@ function convertToString(val) {
 convertToString("200");
 var numbers = [1, 2, 3, 4, 5];
 var strings = [];
+var mixArr = [1, "two", 3, "4"];
 // enum GenderType {
 //   Male = 0,
 //   Female = 1,
