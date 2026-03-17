@@ -62,6 +62,13 @@ let numbers: number[] = [1, 2, 3, 4, 5];
 let strings: string[] = [];
 let mixArr: (number | string)[] = [1, "two", 3, "4"];
 
+let greeting: [number, string, boolean] = [1, "hello", true];
+
+let firstArr = [1, 2, 3];
+let secondArr = [4, 5, 6];
+
+let combineArr = [...firstArr, ...secondArr];
+
 // enum GenderType {
 //   Male = 0,
 //   Female = 1,
