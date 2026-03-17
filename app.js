@@ -4,6 +4,15 @@
 // let gender: string = "male";
 // let course: string = "ts";
 // let completed: boolean = false;
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
 function plus(a, b) {
     return a + b;
 }
@@ -41,6 +50,10 @@ convertToString("200");
 var numbers = [1, 2, 3, 4, 5];
 var strings = [];
 var mixArr = [1, "two", 3, "4"];
+var greeting = [1, "hello", true];
+var firstArr = [1, 2, 3];
+var secondArr = [4, 5, 6];
+var combineArr = __spreadArray(__spreadArray([], firstArr, true), secondArr, true);
 // enum GenderType {
 //   Male = 0,
 //   Female = 1,
