@@ -60,6 +60,7 @@ convertToString("200");
 
 let numbers: number[] = [1, 2, 3, 4, 5];
 let strings: string[] = [];
+let mixArr: (number | string)[] = [1, "two", 3, "4"];
 
 // enum GenderType {
 //   Male = 0,
